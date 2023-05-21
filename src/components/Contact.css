@@ -1,0 +1,66 @@
+body{
+    background-image: url("https://img.freepik.com/premium-vector/orange-oriental-vintage-background-with-indopersian-ornaments-royal-luxurious-wallpaper_619989-2.jpg");
+    background-size: cover;
+}
+.con-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:5rem auto;
+    height:20rem;
+    width:70%;
+}
+.con-head{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 600;
+    text-shadow: 4px 4px 4px rgb(255, 106, 0);
+    color:black;
+    margin-bottom: 2rem;
+    font-family:'Great Vibes', cursive;
+}
+.field{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:1rem;
+    width:100%;
+    margin-top:0.7rem;
+    margin-bottom:0.7rem;
+    border: solid 5px rgb(255, 166, 0);
+    border-radius: 10px;
+    padding: 1rem;
+}
+.sub-btn{
+    height:3rem;
+    width:10rem;
+    background-color:rgb(255, 166, 0);
+    color: rgb(8, 6, 0);
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-shadow:4px 4px 4px rgb(255, 106, 0); 
+    border-radius: 10px;
+    border: solid 5px rgb(255, 106, 0);
+    cursor: pointer;
+    margin: 1rem;
+    font-family: 'Great Vibes', cursive;
+    
+
+}
+.sub-btn:hover{
+    background-color:rgb(255, 106, 0);
+    color: rgb(8, 6, 0);
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-shadow:4px 4px 4px rgb(255, 166, 0); 
+    border-radius: 10px;
+    border: solid 5px rgb(255, 166, 0);
+    cursor: pointer;
+    margin: 1rem;
+    font-family: 'Great Vibes', cursive;
+}

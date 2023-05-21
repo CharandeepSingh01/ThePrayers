@@ -1,0 +1,127 @@
+body{
+  margin:0px;
+}
+.App{
+  height:92.5vh;
+  width:100%;
+  display:flex;
+  background-image: url("https://i.ytimg.com/vi/sYuv8gQAYm4/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin:0px;
+  justify-content: center;
+  align-items: center;
+}
+.body{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:5rem auto;
+  height:20rem;
+  width:90%;
+  background-color:rgba(0,0,0,0.8);
+  border-radius:20px;
+  /* border-color: rgba(229, 121, 38, 0.763); */
+  border: 5px solid rgba(229, 121, 38, 0.763);
+}
+.footer{
+  height:4rem;
+  width:100%;
+  background-color: black;
+  color: white;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+ 
+  margin-bottom: 0px;
+}
+.heading{
+  color: rgb(255, 106, 0);
+  font-size: 8rem;
+  font-weight: 500;
+  margin: 0rem;
+  font-family: 'Great Vibes', cursive;
+  text-shadow: 4px 4px 4px rgb(251, 189, 3);
+  text-align: center;
+}
+.navbar{
+  position:absolute;
+  top:1rem;
+  right:1rem;
+}
+.list{
+  list-style-type: none;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-right: 2.5rem; */
+}
+.item{
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: 'Great Vibes', cursive;
+  margin: 0rem 1rem;
+  cursor: pointer;
+  text-shadow:4px 4px 4px rgb(251, 98, 3);
+}
+.para{
+  color: rgb(254, 187, 3);
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0rem;
+  font-family: 'Great Vibes', cursive;
+  margin-left: 0.5rem !important;
+  margin-right: 0.5rem !important;
+  text-align: center;
+}
+.btn{
+  height:3rem;
+  width:10rem;
+  background-color: rgb(255, 106, 0);
+  color: rgb(8, 6, 0);
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-shadow:4px 4px 4px rgb(251, 189, 3); 
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin: 1rem;
+  font-family: 'Great Vibes', cursive;
+  box-shadow: 4px 4px 4px rgb(251, 189, 3);
+}
+.btn:hover{
+  background-color: rgb(251, 189, 3);
+  color: rgb(4, 2, 0);
+  box-shadow: 4px 4px 4px rgb(255, 106, 0);
+  text-shadow:4px 4px 4px rgb(255, 106, 0); 
+  transition: all linear 0.2s;
+}
+.icon{
+  width: 1.2rem;
+  height: 1.2rem;
+  
+  /* font-weight: 700; */
+  /* margin-top: 1rem; */
+}
+@media (max-width:700px){
+  .heading{
+    font-size: 5rem;
+  }
+  .para{
+    font-size: 1.5rem;
+  }
+  .item{
+    font-size: 1.5rem;
+  }
+}
+@media (max-width:430px){
+  .heading{
+    font-size: 3.5rem;
+  }
+  .item{
+    font-size: 1.5rem;
+  }
+}
